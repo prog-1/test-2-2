@@ -122,7 +122,7 @@ Write a program that generates a matrix of values such as:
   
 1. Write the program in the directory `matrix`.
 2. Implement the logic in a function declared as `func gen(width, height int) [][]int`.
-3. Implement main() function that reads `width` and `height` from the keyboard
+3. Implement `main()` function that reads `width` and `height` from the keyboard
    and prints the generated matrix.
 4. Create a file with tests for the program. The tests must cover all representative
    inputs.

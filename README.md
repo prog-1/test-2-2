@@ -8,7 +8,7 @@ The test consists of four tasks (see below).
 
 ## 1. Code comprehension
 
-Explain `erlaeuterung` program and complete the tasks.
+Explain `erlaeuterung` program and complete the tasks. You may execute and modify the program.
 
 The program contains special comments:
 

@@ -123,6 +123,8 @@ Write a program that generates a matrix of values such as:
 ### Example
 
 ```
+Enter width and height: 5 4
+Result:
  130  53  21   8   4
   36  16   7   3   2
    8   4   2   1   1

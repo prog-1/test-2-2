@@ -137,3 +137,5 @@ Result:
    8   4   2   1   1
    0   0   0   0   1
 ```
+
+Explanation for row=0, col=2: 21 = (vertical) 7+2+0 + (horizontal) 8+4

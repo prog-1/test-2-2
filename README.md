@@ -1,4 +1,4 @@
-# 2. Progression
+# 2. Progression (coding task)
 
 Write a program that finds the `n`th term (`n` is a non-negative integer) of
 the progression
@@ -36,7 +36,7 @@ The nth term is 38.
     
 <img src="https://render.githubusercontent.com/render/math?math=\begin{align*}a_0 %26= 1\\a_1 %26= 2\\ a_2 %26 = 4a_0 %2b a_1 = 4 \cdot 1 %2b 2 = 6\\a_3 %26 = 4a_1 %2b a_2 = 4 \cdot 2 %2b 6 = 14\\a_4 %26 = 4a_2 %2b a_3 = 4 \cdot 6 %2b 14 = 38\end{align*}">
 
-# 3. Filter
+# 3. Filter (coding task)
 
 Write a program that removes all integers divisible by `5` from a slice of
 integers.

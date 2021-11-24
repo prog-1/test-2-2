@@ -3,7 +3,7 @@
 Write a program that finds the `n`th term (`n` is a non-negative integer) of
 the progression
 
-<img src="https://render.githubusercontent.com/render/math?math=\begin{cases}a_0 = 1\\a_1 = 2\\a_i = 4a_{i-2}%b2a_{i-1}\end{cases}">
+<img src="https://render.githubusercontent.com/render/math?math=\begin{cases}a_0 = 1\\a_1 = 2\\a_i = 4a_{i-2} %b2 a_{i-1}\end{cases}">
    
 1. Create the program in the directory `progression`.
 1. Implement the logic in a function declared as `func nthTerm(n uint) int`.

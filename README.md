@@ -29,10 +29,10 @@ The nth term is 2.
  
 ```
 Enter n: 4
-The nth term is 20.
+The nth term is 38.
 ```
     
-`nthTerm(4) must return `20`, because
+`nthTerm(4)` must return `38`, because
     
 <img src="https://render.githubusercontent.com/render/math?math=\begin{align*}a_0 %26= 1\\a_1 %26= 2\\ a_2 %26 = 4a_0 %2b a_1 = 4 \cdot 1 %2b 2 = 6\\a_3 %26 = 4a_1 %2b a_2 = 4 \cdot 2 %2b 6 = 14\\a_4 %26 = 4a_2 %2b a_3 = 4 \cdot 6 %2b 14 = 38\end{align*}">
 

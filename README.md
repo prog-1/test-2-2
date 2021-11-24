@@ -119,6 +119,13 @@ Write a program that generates a matrix of values such as:
 - the last row is filled with 0 except for the last element, which is 1;
 - any other element of the table is the sum of all elements below it (in the
   same column) and to the right (in the same row).
+  
+1. Write the program in the directory `matrix`.
+2. Implement the logic in a function declared as `func gen(width, height int) [][]int`.
+3. Implement main() function that reads `width` and `height` from the keyboard
+   and prints the generated matrix.
+4. Create a file with tests for the program. The tests must cover all representative
+   inputs.
 
 ### Example
 
@@ -130,10 +137,3 @@ Result:
    8   4   2   1   1
    0   0   0   0   1
 ```
-
-1. Write the program in the directory `matrix`.
-2. Implement the logic in a function declared as `func gen(width, height int) [][]int`.
-3. Implement main() function that reads `width` and `height` from the keyboard
-   and prints the generated matrix.
-4. Create a file with tests for the program. The tests must cover all representative
-   inputs.

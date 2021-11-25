@@ -5,7 +5,7 @@ import "fmt"
 func Filter(s []int) []int {
 	x := make([]int, 0)
 	for _, v := range s {
-		if v%3 != 0 {
+		if v%5 != 0 {
 			x = append(x, v)
 		}
 	}

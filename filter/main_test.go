@@ -20,9 +20,10 @@ func TestFilter(t *testing.T) {
 		want []int
 	}{
 		{[]int{}, []int{}},
-		{[]int{-1, 0, -3, 9, 4}, []int{-1, 4}},
-		{[]int{-2, 3, 9, 21, 2}, []int{-2, 2}},
-		{[]int{3, 2}, []int{2}},
+		{[]int{0}, []int{},
+		{[]int{5}, []int{}},
+		{[]int{8, 7, 10}, []int{8, 7}},
+		{[]int{5, 10, 13}, []int{13}},
 	} {
 		got := Filter(tc.s)
 		if !equal(got, tc.want) {

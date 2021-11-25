@@ -2,10 +2,14 @@ package main
 
 import "fmt"
 
-func nthTerm() {
-	a1 := 1
-	a2 := 2
-	for i := 1; i = x; i++{
+func nthTerm(x uint) int {
+	aa := 0
+	ab := 2
+	var y uint
+	for ; y != x; y++ {
+		ab++
+	}
+	return aa
 		
 
 
@@ -16,7 +20,7 @@ func nthTerm() {
 }
 func main() {
 	fmt.Println("Enter your number:")
-	var x int
+	var x uint
 	fmt.Scan(&x)
-	fmt.Println()
+	fmt.Println(nthTerm(x))
 }

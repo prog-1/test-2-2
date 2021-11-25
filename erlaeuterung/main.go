@@ -7,13 +7,13 @@ import (
 )
 
 // QUESTION 1: What does this function do?
-// ANSWER 1:
+// ANSWER 1: This function sorts slice.
 //
 // QUESTION 2: Which algorithm does this function implement?
-// ANSWER 2:
+// ANSWER 2: Bubble-sort.
 //
 // TASK 1: Provide a better name.
-func f1(s []int) {
+func sort(s []int) {
 	for i := len(s) - 1; i > 0; i-- {
 		for j := 0; j < i; j++ {
 			if s[j] > s[j+1] {
@@ -27,7 +27,7 @@ func f1(s []int) {
 // ANSWER 3:
 //
 // TASK 2: Provide a better name.
-func f2(a, b []int) []int {
+func filter(a, b []int) []int {
 	c := make([]int, len(a)+len(b))
 	ic, ia, ib := 0, 0, 0
 	for ; ia < len(a) && ib < len(b); ic++ {
@@ -41,11 +41,13 @@ func f2(a, b []int) []int {
 	}
 	// QUESTION 4: Is it possible that the conditions of the following two if
 	//             statements are *both* true?
-	// ANSWER 4:
-	//
+	// ANSWER 4: No, it is not possible, because the previous for cycle
+	//			 breaks after one of the identical if statements becomes false.
 	// QUESTION 5: Is it possible that the conditions of the following two if
 	//             statements are *both* false?
-	// ANSWER 5:
+	// ANSWER 5: No, it is not possible, because in the previous for cycle
+	// 			 only one thing happen each time and only one variable will
+	// 			 not match the condition.
 	if ia < len(a) {
 		copy(c[ic:], a[ia:])
 	}
@@ -61,12 +63,12 @@ func main() {
 	a := randInts(rand.Intn(maxLen), maxVal) // And create two vectors of random
 	b := randInts(rand.Intn(maxLen), maxVal) // lengths and values.
 
-	f1(a)
-	f1(b)
+	sort(a)
+	sort(b)
 
 	// QUESTION 6: Does the following call modify `a` and/or `b`?
-	// ANSWER 6:
-	c := f2(a, b)
+	// ANSWER 6: The following call modify a and b.
+	c := filter(a, b)
 
 	fmt.Println(c)
 }

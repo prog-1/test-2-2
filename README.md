@@ -99,18 +99,18 @@ The filtered slice: []
 ```
 
 `filter([]int{-10, -15})` returns `[]int{}`, because all integer in the slice
-are divisible by `3`, and are removed from the slice.
+are divisible by `5`, and are removed from the slice.
 
 ### Example 2
 
 ```
 Enter the number of elements in a slice: 5
-Enter the elements: -1 0 -3 9 4
+Enter the elements: -1 0 -5 15 4
 The filtered slice: [-1 4]
 ```
 
-`filter([]int{-1, 0, -3, 9, 4})` returns `[]int{-1, 4}`. `0`, `-3` and `9` are
-integers divisible by `3` and are removed from the slice.
+`filter([]int{-1, 0, -3, 9, 4})` returns `[]int{-1, 4}`. `0`, `-5` and `15` are
+integers divisible by `5` and are removed from the slice.
 
 ## 4. Generation (coding task)
 

@@ -10,7 +10,7 @@ import (
 // ANSWER 1: sort
 //
 // QUESTION 2: Which algorithm does this function implement?
-// ANSWER 2:
+// ANSWER 2:sorting
 //
 // TASK 1: Provide a better name.
 func f1(s []int) {
@@ -24,9 +24,9 @@ func f1(s []int) {
 }
 
 // QUESTION 3: What does this function do?
-// ANSWER 3:
+// ANSWER 3: выполняет действия связанные с С
 //
-// TASK 2: Provide a better name.
+// TASK 2:
 func f2(a, b []int) []int {
 	c := make([]int, len(a)+len(b))
 	ic, ia, ib := 0, 0, 0

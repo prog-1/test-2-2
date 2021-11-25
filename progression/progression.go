@@ -2,12 +2,16 @@ package main
 
 import "fmt"
 
+func nthTerm(n uint) int {
+	a0, a1 := 1, 2
+	var i uint
+	for ; i < n; i++ {
+		a0, a1 = a1, 4*a0+a1
+	}
+	return a0
+}
 func main() {
-	var width int
-	fmt.Scnaln(&width)
-	var height int
-	fmt.Scanln(&height)
-	const width = 5
-	const height = 4
-	 s : = make ([][]int, height)
+	var n uint
+	fmt.Scanln(&n)
+	fmt.Println(nthTerm(n))
 }

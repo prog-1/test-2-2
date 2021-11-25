@@ -109,7 +109,7 @@ Enter the elements: -1 0 -5 15 4
 The filtered slice: [-1 4]
 ```
 
-`filter([]int{-1, 0, -3, 9, 4})` returns `[]int{-1, 4}`. `0`, `-5` and `15` are
+`filter([]int{-1, 0, -5, 15, 4})` returns `[]int{-1, 4}`. `0`, `-5` and `15` are
 integers divisible by `5` and are removed from the slice.
 
 ## 4. Generation (coding task)

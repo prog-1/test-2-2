@@ -93,7 +93,7 @@ integers.
 ### Example 1
 
 ```
-Enter the number of elements in a slice: 5
+Enter the number of elements in a slice: 2
 Enter the elements: 10 -15
 The filtered slice: []
 ```
@@ -104,7 +104,7 @@ are divisible by `5`, and are removed from the slice.
 ### Example 2
 
 ```
-Enter the number of elements in a slice: 2
+Enter the number of elements in a slice: 5
 Enter the elements: -1 0 -5 15 4
 The filtered slice: [-1 4]
 ```

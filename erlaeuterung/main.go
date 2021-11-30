@@ -7,10 +7,10 @@ import (
 )
 
 // QUESTION 1: What does this function do?
-// ANSWER 1:
+// ANSWER 1: sort
 //
 // QUESTION 2: Which algorithm does this function implement?
-// ANSWER 2:
+// ANSWER 2:sorting
 //
 // TASK 1: Provide a better name.
 func f1(s []int) {
@@ -24,9 +24,9 @@ func f1(s []int) {
 }
 
 // QUESTION 3: What does this function do?
-// ANSWER 3:
+// ANSWER 3: выполняет действия связанные с С
 //
-// TASK 2: Provide a better name.
+// TASK 2:
 func f2(a, b []int) []int {
 	c := make([]int, len(a)+len(b))
 	ic, ia, ib := 0, 0, 0
@@ -41,11 +41,11 @@ func f2(a, b []int) []int {
 	}
 	// QUESTION 4: Is it possible that the conditions of the following two if
 	//             statements are *both* true?
-	// ANSWER 4:
+	// ANSWER 4: it is possile
 	//
 	// QUESTION 5: Is it possible that the conditions of the following two if
 	//             statements are *both* false?
-	// ANSWER 5:
+	// ANSWER 5: it cant be possible
 	if ia < len(a) {
 		copy(c[ic:], a[ia:])
 	}
@@ -65,7 +65,7 @@ func main() {
 	f1(b)
 
 	// QUESTION 6: Does the following call modify `a` and/or `b`?
-	// ANSWER 6:
+	// ANSWER 6: yes
 	c := f2(a, b)
 
 	fmt.Println(c)
